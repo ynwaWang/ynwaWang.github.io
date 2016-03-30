@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Markdown Gramma (English)"
+title: "Markdown Gramma"
 subtitle: "A brief introduction about Markdown Grammar. "
 date: 2016-03-29
 author: Benjamin
 category: coding
-tags: english markdown grammar
+tags: code markdown github
 finished: true
 ---
 
