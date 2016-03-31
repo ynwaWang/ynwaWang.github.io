@@ -5,12 +5,12 @@ I think many blog themes are over designed, so I created this one.
 
 Just for using, not showing off.
 
-Nice Blog
+Nice Blog  [![Build Status](https://img.shields.io/badge/build-passing-green.svg)](https://github.com/itisbenjamin/Nice_Blog)  [![Nice Blog](https://img.shields.io/badge/release-v1.0.0-green.svg)](https://github.com/itisbenjamin/Nice_Blog/releases)
 ========
 
 A Simple Jekyll Blog Theme.
 
-[Demo](http://benjaminblog.ml/Nice_Blog)
+[![Demo](https://img.shields.io/badge/Demo-Nice Blog-green.svg)](http://benjaminblog.ml/Nice_Blog)
 
 ![index-page](https://itisbenjamin.github.io/Nice_Blog/img/blog/index.png)
 
@@ -50,14 +50,14 @@ If you make all codes a mess, do not worry, just come back and download again.
 
 Have fun.
 
-Author
+Author  [![Twitter](https://img.shields.io/badge/awesome-Ben-blue.svg)](https://twitter.com/itisbenjamin1)
 ======
 
 A normal person just wanna see this world.
 
-[Twitter](https://twitter.com/itisbenjamin1)
+[![Twitter Follow](https://img.shields.io/twitter/follow/Benjamin.svg?style=social)](https://twitter.com/itisbenjamin1)
 
-License
+License  [![License](https://img.shields.io/npm/l/express.svg)](https://github.com/itisbenjamin/Nice_Blog/blob/master/LICENSE)
 ======
 
 Use MIT License.
