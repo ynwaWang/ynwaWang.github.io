@@ -54,6 +54,9 @@ Heading
 -------
 {% endhighlight %}
 
+Heading
+----------
+
 See? Really easy. 
 
 ## Font
@@ -99,7 +102,7 @@ You can also do this:
 
 ## List
 
-### Order list:
+### Ordered list:
 
 `1. 2. 3. `
 
@@ -107,9 +110,9 @@ You can also do this:
 2. Second
 3. Third
 
-### Unorder list:
+### Unordered list: 
 
-There are three ways to make a unorder list:
+There are three ways to make an unordered list:
 
 `* AAA`
 
@@ -143,7 +146,7 @@ There are three ways to make a unorder list:
 
 > Ignorance is Strength
 
-引用區也可內嵌Markdown其他語法。
+You can also do this:
 
 `> * War is Peace`
 
@@ -178,15 +181,15 @@ You can add your link just behind your words:
 
 And you can also do it like this: 
 
-`[Something Important][1]`
+`[about this link][1]`
 
 Then put this line at anywhere you want in your post:
 
-`[1]: some comments.`
+`[1]: link address`
 
 ### Link description
 
-You can add the link description behind the link address: 
+Add the link description behind the link address like this: 
 
 `[Ben](www.itisbenjamin.github.io "Ben")`
 
@@ -198,7 +201,7 @@ You can add the link description behind the link address:
 
 ![Codes](/img/code.png)
 
-Images' descriptions are the same as how you do it in links: 
+How to write the images' descriptions are the same way as how you do it in links: 
 
 `![Codes](/img/code.png "Codes")`
 
@@ -288,3 +291,5 @@ a     | b     | c     | d
 left      | center       | center       | right 
 :-------- | :----------: | :----------: | -----:
 a         | b            | c            | d
+
+
