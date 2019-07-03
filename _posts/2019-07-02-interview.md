@@ -47,7 +47,7 @@ master和regionserver的交互
 
 底层查询机制
 
-为什么查询快
+<em>?</em> [为什么查询快,实际上是索引机制的问题](https://blog.csdn.net/qq924862077/article/details/80382634)
 
 ### Flink
 
