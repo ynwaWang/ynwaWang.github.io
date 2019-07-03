@@ -27,7 +27,7 @@ hive分为几种表:内部表/外部表/分区表/桶表
 
 ### spark
 
-spark stage划分是怎么实现的
+<u>√</u>  [Spark作业调度中stage的划分]([https://wongxingjun.github.io/2015/05/25/Spark%E4%BD%9C%E4%B8%9A%E8%B0%83%E5%BA%A6%E4%B8%ADstage%E7%9A%84%E5%88%92%E5%88%86/](https://wongxingjun.github.io/2015/05/25/Spark作业调度中stage的划分/))
 
 如何控制task执行的并发量
 
