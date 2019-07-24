@@ -53,7 +53,7 @@ master和regionserver的交互
 
 [aliyun-实时计算 Flink SQL 核心功能解密](https://yq.aliyun.com/articles/457438?spm=a2c4e.11153940.0.0.737e1ff1tqwrhv)
 
-Exactly-once
+[Exactly-once](http://www.whitewood.me/2018/10/16/Flink-Exactly-Once-%E6%8A%95%E9%80%92%E5%AE%9E%E7%8E%B0%E6%B5%85%E6%9E%90/)
 
 窗口/水位
 
