@@ -55,6 +55,10 @@ master和regionserver的交互
 
 [Exactly-once](http://www.whitewood.me/2018/10/16/Flink-Exactly-Once-%E6%8A%95%E9%80%92%E5%AE%9E%E7%8E%B0%E6%B5%85%E6%9E%90/)
 
++ 定义Exactly-once语义，需先定义at-least-once语义。
++ 消息投递要考虑3种情况：正常返回、错误返回、超时，其中错误返回还要分可重试错误返回和不可重试错误返回。可重试错误返回和超时的情况都需要重发消息，来保证at-least-once的语义。
++ 在at-least-once语义的基础上，保证重发的消息只被消费一次或者从业务结果来看只被消费了一次，这就需要可识别重发消息或者消息消费的幂等性
+
 窗口/水位
 
 
