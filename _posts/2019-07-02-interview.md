@@ -19,11 +19,17 @@ yarn的底层原理
 
 
 
-### 数据仓库
+### hive
 
-数据倾斜
+[hive性能优化面试题](https://zhuanlan.zhihu.com/p/65436503)
 
 hive分为几种表:内部表/外部表/分区表/桶表
+
+[hive性能调优-计算分配的map和reduce个数](http://www.voidcn.com/article/p-mjvjishu-bgd.html)
+
+[hive性能调优-关键参数](https://blog.csdn.net/boyu_tung/article/details/52878434)
+
+
 
 ### spark
 
