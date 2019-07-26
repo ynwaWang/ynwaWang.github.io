@@ -29,7 +29,7 @@ hive分为几种表:内部表/外部表/分区表/桶表
 
 [hive性能调优-关键参数](https://blog.csdn.net/boyu_tung/article/details/52878434)
 
-
+[hive性能优化-10条](https://www.cnblogs.com/frankdeng/p/9463897.html)
 
 ### spark
 
