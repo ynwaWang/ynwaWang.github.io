@@ -149,3 +149,52 @@ result 结果
 
 应用+模型，实际上日常工作还是以对接业务和产品需求为主
 
+
+
+# 计算连续日期
+
+```sql
+with data_room as (
+    select 9999589 as roomid,'2017-01-01' as pt_day
+    union all
+    select 9999589 as roomid,'2017-01-02' as pt_day
+    union all
+    select 9999589 as roomid,'2017-01-04' as pt_day
+    union all
+    select 9999589 as roomid,'2017-01-05' as pt_day
+    union all
+    select 9999589 as roomid,'2017-01-06' as pt_day
+    union all
+    select 9999589 as roomid,'2017-01-07' as pt_day
+    union all
+    select 9999589 as roomid,'2017-01-12' as pt_day
+    union all
+    select 9999589 as roomid,'2017-01-13' as pt_day
+    union all
+    select 9999589 as roomid,'2017-01-15' as pt_day
+)
+
+-- select roomid,min(pt_day) continuity_frist_day,max(pt_day) continuity_last_day,count(*) continuity_days
+select roomid,pt_day,rn,date_sub(pt_day,rn)
+from (
+	select roomid,to_date(pt_day) pt_day,row_number()over(partition by roomid order by to_date(pt_day) asc) rn
+	from data_room 
+	where roomid=9999589 and pt_day between '2017-01-01' and '2017-01-16'
+) x     
+-- ) x group by roomid,date_sub(pt_day,rn) 
+```
+
+
+
+| roomid  | pt_day     | rn   | Date_sub(pt_day,rn) |
+| ------- | ---------- | ---- | ------------------- |
+| 9999589 | 2017-01-01 | 1    | 2016-12-31          |
+| 9999589 | 2017-01-02 | 2    | 2016-12-31          |
+| 9999589 | 2017-01-04 | 3    | 2017-01-01          |
+| 9999589 | 2017-01-05 | 4    | 2017-01-01          |
+| 9999589 | 2017-01-06 | 5    | 2017-01-01          |
+| 9999589 | 2017-01-07 | 6    | 2017-01-01          |
+| 9999589 | 2017-01-12 | 7    | 2017-01-05          |
+| 9999589 | 2017-01-13 | 8    | 2017-01-05          |
+| 9999589 | 2017-01-15 | 9    | 2017-01-06          |
+
