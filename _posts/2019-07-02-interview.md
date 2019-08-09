@@ -35,7 +35,7 @@ hive分为几种表:内部表/外部表/分区表/桶表
 
 <u>√</u>  [Spark作业调度中stage的划分](https://wongxingjun.github.io/2015/05/25/Spark%E4%BD%9C%E4%B8%9A%E8%B0%83%E5%BA%A6%E4%B8%ADstage%E7%9A%84%E5%88%92%E5%88%86/)
 
-+ 
++ 为什么要划分stage：划分stage的依据是宽依赖，从性能优化和失败恢复上考虑，窄依赖更佳；无法避免宽依赖的情况下，划分出来就有优化的空间
 
 如何控制task执行的并发量
 
