@@ -15,7 +15,7 @@ MapReduce的运行过程/运行原理
 
 [shuffle的过程](https://blog.51cto.com/machenjie/1968921)
 
-yarn的底层原理
+[yarn详解](https://www.ibm.com/developerworks/cn/opensource/os-cn-hadoop-yarn/)
 
 
 
