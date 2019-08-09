@@ -13,7 +13,7 @@ finished: false
 
 MapReduce的运行过程/运行原理
 
-shuffle的过程
+[shuffle的过程](https://blog.51cto.com/machenjie/1968921)
 
 yarn的底层原理
 
