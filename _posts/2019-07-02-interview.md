@@ -15,6 +15,8 @@ MapReduce的运行过程/运行原理
 
 [shuffle的过程](https://blog.51cto.com/machenjie/1968921)
 
+[MapReduct的shuffle过程详解](https://matt33.com/2016/03/02/hadoop-shuffle/)
+
 [yarn详解](https://www.ibm.com/developerworks/cn/opensource/os-cn-hadoop-yarn/)
 
 
