@@ -59,6 +59,9 @@ master和regionserver的交互
 
 <em>?</em> [为什么查询快,实际上是索引机制的问题](https://blog.csdn.net/qq924862077/article/details/80382634)
 
++ ES：倒排索引/反向索引
++ mysql：存储引擎级别的概念，InnoDb 聚集索引
+
 ### Flink
 
 [aliyun-实时计算 Flink SQL 核心功能解密](https://yq.aliyun.com/articles/457438?spm=a2c4e.11153940.0.0.737e1ff1tqwrhv)
