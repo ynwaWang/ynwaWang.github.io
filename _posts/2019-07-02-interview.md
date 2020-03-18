@@ -174,13 +174,14 @@ with data_room as (
     select 9999589 as roomid,'2017-01-15' as pt_day
 )
 
--- select roomid,min(pt_day) continuity_frist_day,max(pt_day) continuity_last_day,count(*) continuity_days
+
 select roomid,pt_day,rn,date_sub(pt_day,rn)
 from (
 	select roomid,to_date(pt_day) pt_day,row_number()over(partition by roomid order by to_date(pt_day) asc) rn
 	from data_room 
 	where roomid=9999589 and pt_day between '2017-01-01' and '2017-01-16'
 ) x     
+-- select roomid,min(pt_day) continuity_frist_day,max(pt_day) continuity_last_day,count(*) continuity_days
 -- ) x group by roomid,date_sub(pt_day,rn) 
 ```
 
