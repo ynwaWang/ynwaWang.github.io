@@ -22,5 +22,14 @@ finished: false
 
 ## W1:20200402~20200405
 
+### 学习材料
 
++ [HIVE-sql语句转换成MR](https://www.cnblogs.com/Dhouse/p/7132476.html)
++ [HIVE如何执行MR](https://www.cnblogs.com/grasser/p/9257933.html)
+
+### 感悟
+
++ 关于简历和面试
+FAB 法则的思路其实非常简单，就是你不但要说「是什么」、还要回答「好在哪里」以及「能给对方带来什么价值」。
++ 
 
