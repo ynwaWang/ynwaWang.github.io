@@ -26,6 +26,13 @@ finished: false
 
 + [HIVE-sql语句转换成MR](https://www.cnblogs.com/Dhouse/p/7132476.html)
 + [HIVE如何执行MR](https://www.cnblogs.com/grasser/p/9257933.html)
++ [MySQL-Understanding the query execution plan](https://dev.mysql.com/doc/refman/8.0/en/using-explain.html)
++ [!! Hive SQL转化为MapReduce执行计划深度解](https://blog.csdn.net/i000zheng/article/details/81082774)
++ [MySQL探秘(二)：SQL语句执行过程详解](https://juejin.im/post/5b7036de6fb9a009c40997eb)
+
+### 目标 
+
+
 
 ### 感悟
 
