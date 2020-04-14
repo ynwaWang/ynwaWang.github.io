@@ -87,9 +87,10 @@ sql贯穿我的9年java和4年数仓，在不同技术架构下的执行过程�
 3. [分布式ID](https://mp.weixin.qq.com/s/8CGN6aeMy9UuI58ZWlUGEg)
 4. [美团技术文章-数据治理平台的建设与实践](https://mp.weixin.qq.com/s/eQZH7HEwfgC1rzLjgSaIOw)
 5. [spark streaming与flink的比较](https://zhuanlan.zhihu.com/p/40698254)
+6. [flink学习资料大合集](https://juejin.im/post/5d67c61a6fb9a06b0a278988)
+7. [宝藏-Spark VS Flink 下一代大数据计算引擎之争，谁主浮沉（上）](https://ververica.cn/developers/big-data-computing-engine-battle/)
 
 ### 目标
 
 文章：flink与spark streaming的区别
 
-一个理念是，比较2个框架，需要从数据结构+算法的角度来写
