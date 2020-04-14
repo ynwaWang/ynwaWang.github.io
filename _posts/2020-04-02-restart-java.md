@@ -76,3 +76,11 @@ sql贯穿我的9年java和4年数仓，在不同技术架构下的执行过程�
 ### 感悟
 
 数据治理，包含元数据、数据质量（包含源头治理、质量监控、SLA协议）、数据集市（主题域和业务线、指标定义和层级）
+
+
+## W3:20200413~20200414
+
+### 学习资料：
+
+1. [美团技术文章-领域模型的实践](https://mp.weixin.qq.com/s?__biz=MjM5NjQ5MTI5OA==&mid=2651747236&idx=1&sn=baf67052ec1961c3c6de1af26fba9b22&chksm=bd12aae98a6523ff90b3461d00fee548554fdeb2112b541de87d0c59dea45bc60d2f5211d6a6&scene=21#wechat_redirect)
+2. [博客-网易](http://www.whitewood.me/about/)
