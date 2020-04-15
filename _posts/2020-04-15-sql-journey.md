@@ -14,7 +14,7 @@ finished: false
 
 [参考文章-步步深入：MySQL架构总览->查询执行流程->SQL解析顺序](https://www.cnblogs.com/annsshadow/p/5037667.html)
 
-[参考文章-SQL优化器原理-查询优化器综述](https://zhuanlan.zhihu.com/p/40478975)
+[参考文章-mysql group by 底层原理](https://www.cnblogs.com/pc-boke/articles/9916594.html)
 
 ### 两层架构
 
@@ -43,13 +43,35 @@ ORDER BY <order_by_condition>
 LIMIT <limit_number>
 ```
 
+### JOIN原理
 
+Nested-Loop Join 和Block Nested-Loop Join
 
+### Group原理
 
+#### 松散索引
+
+using index for group-by
+
+- 聚合函数都只能限定为min和max
+
+#### 紧凑索引
+
+using where, using index
+
+#### 临时文件
+
+using filesort，也就是建立临时表，对文件进行排序
 
 
 
 # Hive
+
+
+
+# spark
+
+
 
 
 
