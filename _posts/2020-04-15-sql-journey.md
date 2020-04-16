@@ -84,6 +84,35 @@ using filesort，也就是建立临时表，对文件进行排序
 
 # Kylin
 
+[在Kylin中使用count distinct](http://lxw1234.com/archives/2016/08/712.htm)
+
+### 增量构建
+
+segment
+
+### 近似Count Distinct
+
+使用HyperLogLog算法
+
+### 精准Count Distinct
+
+基于bitmap：
+
+1. 所以tiny int 、small int、int的数据值会直接映射到bitmap中
+2. 数据类型为long、string或者其他，数据值以字符串形式编码成dict，再将字典ID映射到bitmap
+
+### 全局字典
+
+
+
+### Filter原理
+
+rowkey中包含filter的字段
+
+
+
+
+
 
 
 # Presto
