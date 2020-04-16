@@ -42,9 +42,13 @@ ORDER BY <order_by_condition>
 LIMIT <limit_number>
 ```
 
-### SELECT原理
+### B+树索引原理
 
+[InnoDB中一颗B+树能存多少行数据？](https://www.jianshu.com/p/3578beed5a68)
 
+1. 非叶子节点不保存数据，可以存放更多的指针，控制树的高度
+2. 高度 与 记录数/节点保存的索引数 相关，与IO次数近似
+3. InnoDB的聚集索引和二级索引
 
 ### JOIN原理
 
