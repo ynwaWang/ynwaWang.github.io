@@ -90,6 +90,11 @@ sql贯穿我的9年java和4年数仓，在不同技术架构下的执行过程�
 6. [flink学习资料大合集](https://juejin.im/post/5d67c61a6fb9a06b0a278988)
 7. [宝藏-Spark VS Flink 下一代大数据计算引擎之争，谁主浮沉（上）](https://ververica.cn/developers/big-data-computing-engine-battle/)
 
+### 要求
+
+1. 熟练掌握Hadoop、Hive、Hbase、zookeeper、kafka等分布式框架；熟悉spark相关环境和工作原理
+2. 精通主流Oracle、mysql、MongoDB
+
 ### 目标
 
 文章：flink与spark streaming的区别
