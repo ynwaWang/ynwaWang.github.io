@@ -78,7 +78,7 @@ sql贯穿我的9年java和4年数仓，在不同技术架构下的执行过程�
 数据治理，包含元数据、数据质量（包含源头治理、质量监控、SLA协议）、数据集市（主题域和业务线、指标定义和层级）
 
 
-## W3:20200413~20200414
+## W3:20200413~20200419
 
 ### 学习资料
 
@@ -93,7 +93,7 @@ sql贯穿我的9年java和4年数仓，在不同技术架构下的执行过程�
 ### 要求
 
 1. 熟练掌握Hadoop、Hive、Hbase、zookeeper、kafka等分布式框架；熟悉spark相关环境和工作原理
-2. 精通主流Oracle、mysql、MongoDB
+2. 精通主流Oracle、mysql、MongoDB、redis、elasticsearch
 
 ### 目标
 
