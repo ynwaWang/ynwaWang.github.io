@@ -16,10 +16,6 @@ finished: false
 
 [参考文章-mysql group by 底层原理](https://www.cnblogs.com/pc-boke/articles/9916594.html)
 
-### 两层架构
-
-SQL Layer + Storage Engine Layer 
-
 ### 查询执行流程
 
 1. 查询缓存 - 哈希值引用，所以任何文本的改变都可能导致缓存未命中
@@ -73,6 +69,12 @@ using filesort，也就是建立临时表，对文件进行排序
 
 
 # Hive
+
+
+
+
+
+### WindowFun原理
 
 
 
