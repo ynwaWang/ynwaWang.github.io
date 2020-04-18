@@ -88,6 +88,15 @@ using filesort，也就是建立临时表，对文件进行排序
 
 [在Kylin中使用count distinct](http://lxw1234.com/archives/2016/08/712.htm)
 
+### 查询执行过程
+
+1. 查询引擎解析SQL，生成基于关系模型的逻辑执行计划
+2. 然后转译为基于Cube的物理执行计划
+3. 查询优化？？
+
+
+
+
 ### 增量构建
 
 segment
