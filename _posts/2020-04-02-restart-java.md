@@ -123,4 +123,7 @@ sql贯穿我的9年java和4年数仓，在不同技术架构下的执行过程�
 
 Hadoop、Hive、Spark、Flink、Zookeeper、分布式
 
+### 面试题
 
+1. [Hadoop面试题](https://www.aboutyun.com//forum.php/?mod=viewthread&tid=25195&extra=page%3D1&page=1&)
+2. 
