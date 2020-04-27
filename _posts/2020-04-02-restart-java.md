@@ -137,3 +137,5 @@ Hadoop、Hive、Spark、Flink、Zookeeper、分布式
 ### 学习资料
 
 1. [实时流处理系统反压机制 - 综述](https://blog.csdn.net/qq_21125183/article/details/80708142)
+2. [Flink如何优雅解决反压，涉及内存管理](https://yq.aliyun.com/articles/64821)
+3. 
