@@ -134,3 +134,6 @@ Hadoop、Hive、Spark、Flink、Zookeeper、分布式
 
 # W5：20200426~20200430
 
+### 学习资料
+
+1. [实时流处理系统反压机制 - 综述]([http://ileaf.tech/bigdata/2018/11/15/%E5%AE%9E%E6%97%B6%E6%B5%81%E5%A4%84%E7%90%86%E7%B3%BB%E7%BB%9F%E5%8F%8D%E5%8E%8B%E6%9C%BA%E5%88%B6-BackPressure-%E7%BB%BC%E8%BF%B0-%E8%BD%AC/](http://ileaf.tech/bigdata/2018/11/15/实时流处理系统反压机制-BackPressure-综述-转/))
