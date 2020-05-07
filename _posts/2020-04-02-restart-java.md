@@ -149,3 +149,4 @@ Hadoop、Hive、Spark、Flink、Zookeeper、分布式
 ### 学习资料
 
 1. [kafka常见面试题](https://zhuanlan.zhihu.com/p/89294602)
+2. Flink 的2个使用场景，实时用户订单标签、用户页面复杂事件
