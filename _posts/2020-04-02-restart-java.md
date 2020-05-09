@@ -150,6 +150,8 @@ Hadoop、Hive、Spark、Flink、Zookeeper、分布式
 
 1. [kafka常见面试题](https://zhuanlan.zhihu.com/p/89294602)
 2. Flink 的2个使用场景，实时用户订单标签、用户页面复杂事件
+3. `AssignerWithPeriodicWatermarks`周期性地分配`timestamp`和生成`watermark`(可能依赖于元素或者纯粹基于处理时间)。`watermark`产生的事件间隔(每n毫秒)是通过`ExecutionConfig.setAutoWatermarkInterval(...)`来定义的，每当分配器的`getCurrentWatermark()`方法呗调用时，如果返回的`watermark`是非空并且大于上一个`watermark`的话，一个新的`watermark`将会被发射。 [参考文章](https://www.jianshu.com/p/8c4a1861e49f)
+4. 
 
 
 
