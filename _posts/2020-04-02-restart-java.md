@@ -163,3 +163,16 @@ Hadoop、Hive、Spark、Flink、Zookeeper、分布式
 
 #### 限流
 
+https://juejin.im/post/5b3a25e46fb9a024fc284de4
+
+限流算法：
+
+1. 固定窗口计数器
+
+   
+
+2. 滑动窗口计数器
+
+3. 漏桶
+
+4. 令牌桶
