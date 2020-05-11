@@ -153,6 +153,8 @@ Hadoop、Hive、Spark、Flink、Zookeeper、分布式
 3. `AssignerWithPeriodicWatermarks`周期性地分配`timestamp`和生成`watermark`(可能依赖于元素或者纯粹基于处理时间)。`watermark`产生的事件间隔(每n毫秒)是通过`ExecutionConfig.setAutoWatermarkInterval(...)`来定义的，每当分配器的`getCurrentWatermark()`方法呗调用时，如果返回的`watermark`是非空并且大于上一个`watermark`的话，一个新的`watermark`将会被发射。 [参考文章](https://www.jianshu.com/p/8c4a1861e49f)
 4. [flink的反压定位和解决<数据倾斜或应用性能问题>](https://juejin.im/post/5ddf8ca5f265da05ed0e2214)
 5. [flink 面试助攻指南](https://mp.weixin.qq.com/s/Nf4iV_sNitOMQkw7PGgvOQ)
+6. 2个博客： [](http://wuchong.me/categories/Flink/)
+7. 
 
 
 
