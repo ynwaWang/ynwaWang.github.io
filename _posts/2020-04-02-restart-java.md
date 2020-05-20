@@ -206,3 +206,9 @@ https://mp.weixin.qq.com/s/sGPqeAIO4JLdvLj_rtumlQ
 
 体系化+可操作
 
+
+
+## W8：20200518~20200522
+
+1. [利用LineageLogger分析hive的字段血缘](http://cxy7.com/articles/2017/11/10/1510310104765.html)
+2. 
