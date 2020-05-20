@@ -211,4 +211,5 @@ https://mp.weixin.qq.com/s/sGPqeAIO4JLdvLj_rtumlQ
 ## W8：20200518~20200522
 
 1. [利用LineageLogger分析hive的字段血缘](http://cxy7.com/articles/2017/11/10/1510310104765.html)
-2. 
+2. Apache 顶级项目atlas ，Hadoop集群管理工具ambari
+
