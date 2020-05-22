@@ -211,5 +211,16 @@ https://mp.weixin.qq.com/s/sGPqeAIO4JLdvLj_rtumlQ
 ## W8：20200518~20200522
 
 1. [利用LineageLogger分析hive的字段血缘](http://cxy7.com/articles/2017/11/10/1510310104765.html)
+
 2. Apache 顶级项目atlas ，Hadoop集群管理工具ambari
 
+3. [数仓失败的6个原因](https://mp.weixin.qq.com/s/oicuf_Vr2ox9dszOBGKN6g)
+
+- 脱离业务涉及数据仓库
+- 错误评估数仓的影响力
+- 空谈多于实践
+- 增加不必要的复杂度
+- 项目负责人缺乏适当的权利
+- 糟糕的项目管理
+
+4. 
