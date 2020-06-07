@@ -229,3 +229,9 @@ https://mp.weixin.qq.com/s/sGPqeAIO4JLdvLj_rtumlQ
 
 好好回顾了下。。其实那一年蚂蚁二面不过的那次，是我职业转型的上升期，如果对目标更明确一些我会准备的更充分点。。
 这两年落入了数仓的迷惘期。。。浪费了时间。。
+
+
+
+
+
+[SQL on Hadoop使用到的技术](https://mp.weixin.qq.com/s/4O07cECjLbUQ4H-5K8f3gQ)
