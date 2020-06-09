@@ -235,3 +235,14 @@ https://mp.weixin.qq.com/s/sGPqeAIO4JLdvLj_rtumlQ
 
 
 [SQL on Hadoop使用到的技术](https://mp.weixin.qq.com/s/4O07cECjLbUQ4H-5K8f3gQ)
+
+
+
+
+
+Shell 脚本获取进程pid的方法并杀掉
+
+```shell
+ps -ef | grep ods_m_disp_data | grep -v grep | awk '{print $2}' | xargs kill -9
+```
+
