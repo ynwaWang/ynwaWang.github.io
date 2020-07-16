@@ -246,3 +246,7 @@ Shell 脚本获取进程pid的方法并杀掉
 ps -ef | grep ods_m_disp_data | grep -v grep | awk '{print $2}' | xargs kill -9
 ```
 
+
+
+[git原理](https://www.jiqizhixin.com/articles/2019-12-20)
+
