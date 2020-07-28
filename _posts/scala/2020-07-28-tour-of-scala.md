@@ -9,6 +9,54 @@ tags: learn
 finished: false
 ---
 
+## 特质
+
+Traits用于在类（Class）之间共享程序接口（Interface）和字段（Fields）。它们类似于Java 8的接口。 类和对象 (Objects)可以扩展特质，但是特质不能被实例化，因此特质没有参数。
+
+## 案例类
+
+### 定义
+
+一个最简单的案例类定义由关键字`case class`，类名，参数列表（可为空）组成：
+
+```scala
+case class Book(isbn: String)
+
+val frankenstein = Book("978-0486282114")
+```
+
+注意在实例化案例类`Book`时，并没有使用关键字`new`，这是因为案例类有一个默认的`apply`方法来负责对象的创建。
+
+当你创建包含参数的案例类时，这些参数是公开（public）的`val`
+
+### 比较
+
+案例类在比较的时候是按值比较而非按引用比较：
+
+```scala
+case class Message(sender: String, recipient: String, body: String)
+
+val message2 = Message("jorge@catalonia.es", "guillaume@quebec.ca", "Com va?")
+val message3 = Message("jorge@catalonia.es", "guillaume@quebec.ca", "Com va?")
+val messagesAreTheSame = message2 == message3  // true
+```
+
+### 拷贝
+
+你可以通过`copy`方法创建一个案例类实例的浅拷贝，同时可以指定构造参数来做一些改变。
+
+```scala
+case class Message(sender: String, recipient: String, body: String)
+val message4 = Message("julien@bretagne.fr", "travis@washington.us", "Me zo o komz gant ma amezeg")
+val message5 = message4.copy(sender = message4.recipient, recipient = "claire@bourgogne.fr")
+message5.sender  // travis@washington.us
+message5.recipient // claire@bourgogne.fr
+message5.body  // "Me zo o komz gant ma amezeg"
+```
+
+上述代码指定`message4`的`recipient`作为`message5`的`sender`，指定`message5`的`recipient`为”claire@bourgogne.fr”，而`message4`的`body`则是直接拷贝作为`message5`的`body`了。
+
+
 
 
 ## 模式匹配
