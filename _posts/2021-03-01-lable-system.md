@@ -35,7 +35,7 @@ finished: true
 
 ![流程-流程阶段-工作项-工作内容](https://mmbiz.qpic.cn/mmbiz_png/7VHriaQOsnjljrSDhgickGsxG95MVJ5ciaCMeghQWjkxBn10NxNkPwDKZSIibK5n3BAUWzCw5CqicK4pYEbibjfxsfHg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
-2. 核心直播啊和监测指标
+2. 核心指标和监测指标
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/7VHriaQOsnjljrSDhgickGsxG95MVJ5ciaCOWCAPOV44lz2nM6rbibciaicibV839uIw8ibXcn0jRFzNEsok9j5cypxkBA/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
